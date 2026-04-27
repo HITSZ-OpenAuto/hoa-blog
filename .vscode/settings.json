@@ -1,0 +1,13 @@
+{
+  "eslint.validate": [
+    "mdx",
+    "markdown"
+  ],
+  "files.associations": {
+    "*.mdx": "mdx"
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "unifiedjs.vscode-mdx",
+    "editor.formatOnSave": true
+  }
+}

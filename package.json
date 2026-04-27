@@ -1,0 +1,35 @@
+{
+  "name": "hoa-blog",
+  "version": "1.0.0",
+  "description": "HITSZ OpenAuto blog content repository",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint 'blog/**/*.mdx'",
+    "lint:fix": "eslint 'blog/**/*.mdx' --fix",
+    "lint:remark": "remark 'blog/**/*.mdx' --quiet --frail",
+    "lint:remark:fix": "remark 'blog/**/*.mdx' --quiet --output",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "eslint": "^10.2.1",
+    "eslint-mdx": "^3.7.0",
+    "eslint-plugin-mdx": "^3.7.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "remark-cli": "^12.0.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-math": "^6.0.0",
+    "remark-mdx": "^3.1.1",
+    "remark-preset-lint-consistent": "^6.0.1"
+  },
+  "lint-staged": {
+    "*.{md,mdx}": [
+      "eslint --fix",
+      "eslint"
+    ],
+    "*.mdx": [
+      "remark --quiet --frail"
+    ]
+  },
+  "packageManager": "pnpm@9.15.0"
+}
