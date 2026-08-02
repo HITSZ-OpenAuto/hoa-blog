@@ -6,6 +6,9 @@ authors:
     link: https://github.com/oliverwu515
     image: https://github.com/oliverwu515.png
 description: 面向每一位想入门 LaTeX 的新人
+tags:
+  - 效率工具
+  - 新生指南
 ---
 
 **[返回 Markdown 文章主页](../basic-of-latex-with-markdown)**

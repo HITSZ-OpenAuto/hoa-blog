@@ -12,6 +12,9 @@ authors:
     link: https://github.com/oliverwu515
     image: https://github.com/oliverwu515.png
 description: 本文介绍如何在 Markdown 文档中使用 LaTeX 输入公式，也可做 LaTeX 速查手册之用。
+tags:
+  - 效率工具
+  - 数学
 ---
 
 关于 Markdown 的标题、段落、字体等样式的设置，请看[这里](../getting-started-with-markdown-in-typora)。

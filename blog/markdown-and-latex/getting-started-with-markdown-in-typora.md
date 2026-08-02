@@ -9,6 +9,9 @@ authors:
     link: https://github.com/kowyo
     image: https://github.com/kowyo.png
 description: 面向每一位想入门 Markdown 的新人
+tags:
+  - 效率工具
+  - 新生指南
 ---
 
 Typora 是一款支持实时预览的 Markdown 文本编辑器。为了保证良好的 Markdown 编辑体验，**我们建议您先安装 Typora 后再来阅读之后的教程**。同时，由于 Markdown 语法较为简单，本文不作过多文字性描述，更多时候只提供示例的 Markdown 代码。读者只需要在 Typora 中输入对应的代码，即可看到实时预览的效果。（所有的代码块都可以复制！将鼠标移至代码块上，会发现右上角出现复制图标，点击图标即可复制！）
