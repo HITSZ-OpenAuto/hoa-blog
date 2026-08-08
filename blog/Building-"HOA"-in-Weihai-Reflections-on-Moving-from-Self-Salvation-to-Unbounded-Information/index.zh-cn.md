@@ -6,7 +6,7 @@ authors:
   # 支持多作者
   - name: "QQptr"
     link: "https://github.com/gaoyingao"
-    image: ""
+    image: "https://avatars.githubusercontent.com/u/238502254?s=400&u=bb7fbd85460e0f7a2ab1dc2a9a46bf283b7fd8e8&v=4"
 excludeSearch: false
 ---
 # 在威海搭建“HOA”的构想与思考：从破局自救到信息无界
